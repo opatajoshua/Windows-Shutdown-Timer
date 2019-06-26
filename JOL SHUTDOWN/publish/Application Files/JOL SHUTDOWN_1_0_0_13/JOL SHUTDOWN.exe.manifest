@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="JOL SHUTDOWN.exe" version="1.0.0.13" publicKeyToken="28cb570ee9f1e0ce" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="JOL SHUTDOWN" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="JOL SHUTDOWN.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="jcontrols.dll" size="46592">
+      <assemblyIdentity name="jcontrols" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Cr8IjClWw1QHnYbvihrtxfZ+5yyeLXyOyGU1NFQOSgs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JOL SHUTDOWN.exe" size="850432">
+      <assemblyIdentity name="JOL SHUTDOWN" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6qExNbhAT2mn9jQG5nr78EEtnSwuFaLZ1AYroYxrBQg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="files\unknown_artist-bells.mp3" size="289544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FEmnhiCw8nj8tQQZYkQuyBJ5hFBIvQQjpnEgeyUvVUM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="JOL SHUTDOWN.exe.config" size="3133">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n6rYxXV0l66dEwU2jot5hAkwyiy4taaPxlQ82IFHuUQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=OPATA-PC\opata" issuerKeyHash="47e3cb51a8db11016a6334fade5c566c0ab4e741" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>l2zdONM2irDH7Rx/1kmbn99uMBYI+W2xiJ4AVaTP75E=</DigestValue></Reference></SignedInfo><SignatureValue>g/jHJpPIswy9oDaIS17Ew/zGqV7cvbBLOrcyRfAcY9wY+W/lj6jZtfHjHFsKenvIT+X8SI82HZK8RWJwsaZh39kEcQQA4CyteCrLBaOF/wT2AJORI2xGJHy6iQwI3huaVyBKe6ra62znrgXm5jToL7nkUHIq1BNzAk4K36kadZI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vVhkVBrnaTBC2EAlk+zr5+GSaEh13VhmCpubgUA7R4XyzKbRHJHuH6+FlYBbn7upaIIj8Nck3/7yW0TScP4/NuhHB9m407EEkC3wBZRltRT9XcpQLMiWTdJjI3al4xXih4TBRfbiq0Uy6W56hNNrHd1OBpoBvdXKCpV2Mml/rNc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="91efcfa455009e88b16df90816306edf9f9b49d67f1cedc7b08a36d338dd6c97" Description="" Url=""><as:assemblyIdentity name="JOL SHUTDOWN.exe" version="1.0.0.13" publicKeyToken="28cb570ee9f1e0ce" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OPATA-PC\opata</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>A2QdjZM8WD1sH5oF1wj/rqY9FBW1L7XAXF4/ZC1F6co=</DigestValue></Reference></SignedInfo><SignatureValue>BUp6zUK1CzRqP5tm9FhcKZrdrwOymWoNAHNiUqfS/3KN/RYWu3JuXBX2+PSutezWG0ZoaxkvI2FZPsObFeXtXkjDa1zJaogY8QmQaKPOTIoA+hSqS+R9Q+6Tr1N5uv6q0jYHKlS8NNB5euLWVz7/eaSPBQ+Ke241naJc7S9LtTY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vVhkVBrnaTBC2EAlk+zr5+GSaEh13VhmCpubgUA7R4XyzKbRHJHuH6+FlYBbn7upaIIj8Nck3/7yW0TScP4/NuhHB9m407EEkC3wBZRltRT9XcpQLMiWTdJjI3al4xXih4TBRfbiq0Uy6W56hNNrHd1OBpoBvdXKCpV2Mml/rNc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQPGhHnkRLl5FDRsFk+hDuijANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwATwBQAEEAVABBAC0AUABDAFwAbwBwAGEAdABhMB4XDTE1MDkxNjIxNDA0NFoXDTE2MDkxNjAzNDA0NFowJzElMCMGA1UEAx4cAE8AUABBAFQAQQAtAFAAQwBcAG8AcABhAHQAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvVhkVBrnaTBC2EAlk+zr5+GSaEh13VhmCpubgUA7R4XyzKbRHJHuH6+FlYBbn7upaIIj8Nck3/7yW0TScP4/NuhHB9m407EEkC3wBZRltRT9XcpQLMiWTdJjI3al4xXih4TBRfbiq0Uy6W56hNNrHd1OBpoBvdXKCpV2Mml/rNcCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCvQTdlzUmnzcRWuVSSCMUwpp0idUm99ZXHYAV3YNoEqFZ3z9iQwOscuGZMTiyTnmlijkByDcND7tCNYDtKO+GL+jo5HGs0pT5fXl/Py77WtT73X+Cnl+M6usDis7ica+VHeAlIPHuoMAjZPt/wXOxmuogYnj05ldQ+gj+wZBYMhA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

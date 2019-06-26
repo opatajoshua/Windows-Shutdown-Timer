@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="JOL_SHUTDOWN.settingsControls" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="alertMunite" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="showAlertMessage" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="playAlertSong" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="alertMessage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hello! time up</Value>
+    </Setting>
+    <Setting Name="alertSongLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">F:\MULTIMEDIA\music\Foriegn\i can only imagine.mp3</Value>
+    </Setting>
+    <Setting Name="wokenMessage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Wake up call</Value>
+    </Setting>
+    <Setting Name="AskForPass" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NotificationSeconds" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
